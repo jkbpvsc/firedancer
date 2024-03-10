@@ -1,4 +1,4 @@
-$(call add-hdrs,fd_blake3.h)
+$(call add-hdrs,fd_blake3.h blake3.h)
 $(call add-objs,fd_blake3 blake3_portable,fd_ballet)
 ifdef FD_HAS_AVX512
 $(call add-objs,blake3_avx512,fd_ballet)
